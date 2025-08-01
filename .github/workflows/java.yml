@@ -2,7 +2,8 @@ name: Hello Every Minute
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Run every 1 minute
+  
+    #- cron: '*/1 * * * *'  # Run every 1 minute
   workflow_dispatch:       # Also allows manual run
 
 jobs:
